@@ -362,7 +362,7 @@ h1, h2, h3, h4, h5, h6 {
 .card-image-title-description .card .card-body .card-title {
   margin-bottom: .75rem;
 }
-.card {
+.card1 {
   display: inline-block;
   position: relative;
   overflow: hidden;
@@ -370,7 +370,7 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 350px;
   height: 100%;
 }
-.card:hover {
+.card1:hover {
   box-shadow: 8px 12px 31px -10px #ab98ab;
 }
 .card-img-wrapper {
@@ -383,14 +383,14 @@ h1, h2, h3, h4, h5, h6 {
 .card-img-wrapper img {
   transition: 1s ease;
 }
-.card:hover .card-img-wrapper img {
+.card1:hover .card-img-wrapper img {
   transform: scale(1);
 }
 .card-body .card-title {
   margin-bottom: calc(70% + 20px);
   transition: 1.5s ease;
 }
-.card:hover .card-body .card-title {
+.card1:hover .card-body .card-title {
   margin-bottom: 1rem;
 }
 
@@ -411,10 +411,10 @@ h1, h2, h3, h4, h5, h6 {
   height: auto;
   transition: 1.5s ease;
 }
-.card:hover .card-body {
+.card1:hover .card-body {
   height: 50%;
 }
-.card:hover .card-content {
+.card1:hover .card-content {
   bottom: 10px;
 }
 
