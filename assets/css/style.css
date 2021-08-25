@@ -1,9 +1,3 @@
-/**
-* Template Name: Lumia - v2.2.1
-* Template URL: https://bootstrapmade.com/lumia-bootstrap-business-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -129,9 +123,9 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   position: relative;
   color: #4f5a62;
-  padding: 12px 15px;
+  padding: 16px 12px;
   transition: 0.3s;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
 }
