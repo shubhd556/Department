@@ -99,7 +99,7 @@
         if (cur_pos <= bottom) {
           
         }
-        main_nav.find('a[href="#' + $(this).attr('id') + '"]').parent('li').addClass('active');
+        main_nav.find('a[href="#' + $(this).attr('id') + '"]').parent('li').addClass('');
       }
       if (cur_pos < 300) {
         
