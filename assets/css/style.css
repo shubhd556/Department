@@ -1923,3 +1923,14 @@ margin-bottom: 1rem;
 border: 0;
 border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
+
+.list_item li::marker{
+  content: "=>";
+  color: #007bb5;
+  font-size: 1.4em;
+  
+}
+.list_item li{
+  padding-left: 1ch;
+  margin-bottom: 10px;
+}
