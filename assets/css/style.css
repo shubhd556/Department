@@ -1506,15 +1506,19 @@ section {
 --------------------------------------------------------------*/
 .team .member {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  width: 400px;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   padding: 30px 20px;
   background: #fff;
 }
 
 .team .member img {
+  width: 150px;
   max-width: 60%;
-  border-radius: 50%;
+  height: 150px;
+  max-height: auto;
+  border-radius: 50%!important;
   margin: 0 0 30px 0;
 }
 
@@ -1532,7 +1536,7 @@ section {
 
 .team .member p {
   padding-top: 10px;
-  font-size: 14px;
+  font-size: 17px;
   font-style: italic;
   color: #aaaaaa;
 }
@@ -1995,6 +1999,7 @@ section {
 .card {
   border-radius:0;
   margin:10px auto;
+
 }
 .card-title {
 text-transform: uppercase;
@@ -2152,6 +2157,7 @@ h1:last-of-type {
 }
 
 .box {
+  border: 1px solid rgb(155, 155, 155);
   border-radius: 5px;
   box-shadow: 0px 30px 40px -20px var(--grayishBlue);
   padding: 30px;
@@ -2176,16 +2182,16 @@ img {
 }
 
 .cyan {
-  border-top: 3px solid var(--cyan);
+  border-top: 5px solid var(--cyan);
 }
 .red {
-  border-top: 3px solid var(--red);
+  border-top: 5px solid var(--red);
 }
 .blue {
-  border-top: 3px solid var(--blue);
+  border-top: 5px solid var(--blue);
 }
 .orange {
-  border-top: 3px solid var(--orange);
+  border-top: 5px solid var(--orange);
 }
 
 h2 {
@@ -2219,4 +2225,3 @@ h2 {
   }
   
 }
-
