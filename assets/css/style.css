@@ -1004,8 +1004,8 @@ section {
 }
 
 .section-title h2 {
-  font-size: 32px;
-  font-weight: 600;
+  font-size: 35px;
+  font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
@@ -1419,7 +1419,12 @@ section {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
+.testimonials{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(71,116,209,1) 0%, rgba(0,212,255,1) 100%);
+}
 .testimonials .testimonial-item {
+  
   box-sizing: content-box;
   padding: 30px 30px 0 30px;
   margin: 30px 15px;
