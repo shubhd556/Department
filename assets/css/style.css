@@ -382,7 +382,7 @@ color: #17aa1c;
 }
 @media (min-width: 1024px) {
   .contact-form__wrapper {
-      padding: 5rem !important
+      padding: 1rem !important
   }
 }
 .shadow-lg, .shadow-lg--on-hover:hover {
