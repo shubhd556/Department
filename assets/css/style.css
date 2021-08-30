@@ -2310,8 +2310,9 @@ code {
     0px 5px 8px 0px rgba(0, 0, 0, 0.14),
     0px 1px 14px 0px rgba(0, 0, 0, 0.12);
   overflow: hidden;
-  background-image: url(https://source.unsplash.com/collection/905011/1000x1000);
-  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:contain;
 }
 
 .info {
@@ -2322,7 +2323,7 @@ code {
   transform: translateY(100%)
     translateY(-88px)
     translateZ(0);
-  transition: transform 1.5s ease-out;
+  transition: transform 0.8s ease-out;
 }
 
 .info:before {
@@ -2340,12 +2341,12 @@ code {
   transform: translateY(-100%)
     translateY(88px)
     translateZ(0);
-  transition: transform 0.5s ease-out;
+  transition: transform 0.1s ease-out;
 }
 
 .mycard:hover .info,
 .mycard:hover .info:before {
-  transform: translateY(0) translateZ(0);
+  transform: translateY(10%) translateZ(0);
 }
 
 .title {
@@ -2359,6 +2360,6 @@ code {
 .description {
   margin: 0;
   padding: 0 24px 24px;
-  font-size: 18px;
-  line-height: 1.5;
+  font-size: 16px;
+  line-height: 1.4;
 }
